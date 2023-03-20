@@ -1,7 +1,7 @@
 {
   "home": "https://github.com/Palldanerar/dateMockAPI",
   "name": "datamockapi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Makes it easier to work with  mockAPI.",
   "main": "index.js",
   "keywords": [
