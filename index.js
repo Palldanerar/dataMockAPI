@@ -4,9 +4,7 @@ class DataMockAPI {
   }
 
   getData() {
-    fetch(this.url)
-      .then((res) => res.json())
-      .then((data) => console.log(data));
+    return fetch(this.url).then((res) => res.json());
   }
 
   setData(newData) {
