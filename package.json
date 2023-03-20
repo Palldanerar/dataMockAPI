@@ -1,0 +1,13 @@
+{
+  "home": "https://github.com/Palldanerar/dateMockAPI",
+  "name": "datamockapi",
+  "version": "1.0.4",
+  "description": "Makes it easier to work with  mockAPI.",
+  "main": "index.js",
+  "keywords": [
+    "api",
+    "Education"
+  ],
+  "author": "Alexander Kharin (Palldanerar)",
+  "license": "ISC"
+}
