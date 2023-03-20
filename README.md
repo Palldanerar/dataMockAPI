@@ -1,7 +1,4 @@
 # dateMockAPI
 Makes it easier to work with  mockAPI.
 
-Для начала работы используйте
-```javascript
-npm i datamockapi
-```
+Для начала работы используйте `npm i datamockapi`
