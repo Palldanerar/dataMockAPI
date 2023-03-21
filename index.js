@@ -3,11 +3,12 @@ class DataMockAPI {
     this.url = url;
   }
 
-  getData() {
-    return fetch(this.url).then((res) => res.json());
+  async getData() {
+    const responce = await fetch(this.url);
+    return await responce.json();
   }
 
-  setData(newData) {
+  postData(newData) {
     fetch(this.url, {
       method: "POST",
       headers: { "content-type": "application/json" },
